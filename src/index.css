@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus ~ .input-text{
+    @apply text-blue-500 bg-white transform -translate-x-2 -translate-y-5 scale-75;
+}
